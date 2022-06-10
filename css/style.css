@@ -99,11 +99,13 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
+    position: relative;
 }
 
 .enter {
     width: 100%;
-    margin-top: -600px;
+    position: absolute;
+    top: 85px;
 }
 
 .e-btn {
